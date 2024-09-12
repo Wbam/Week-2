@@ -55,7 +55,6 @@ def additional_aggregations(df):
     return xdr_sessions_per_user, session_duration, data_usage, total_data_volume
 # Task 1.2
 def generate_data():
-    # Sample DataFrame (Replace this with your actual data)
     df = pd.DataFrame({
         'duration_ms': np.random.normal(loc=5000, scale=1500, size=100),
         'social_media': np.random.normal(loc=2000, scale=500, size=100),
