@@ -56,16 +56,15 @@ def additional_aggregations(df):
 # Task 1.2
 def generate_data():
     df = pd.DataFrame({
-        'duration_ms': np.random.normal(loc=5000, scale=1500, size=100),
-        'social_media': np.random.normal(loc=2000, scale=500, size=100),
-        'google': np.random.normal(loc=1500, scale=400, size=100),
-        'email': np.random.normal(loc=1000, scale=300, size=100),
-        'youtube': np.random.normal(loc=2500, scale=700, size=100),
-        'netflix': np.random.normal(loc=3000, scale=800, size=100),
-        'gaming': np.random.normal(loc=3500, scale=900, size=100),
-        'total_data': np.random.normal(loc=50000, scale=15000, size=100),
-        'other_data': np.random.normal(loc=10000, scale=3000, size=100),
-    })
+        'duration_ms': np.random.normal(loc=77536.33, scale= 527374.80, size=100),
+        'social_media': np.random.normal(loc=914034.26, scale= 527374.79, size=100),
+        'google': np.random.normal(loc=3903418.18, scale=2249303.92, size=100),
+        'email': np.random.normal(loc=1128210.90, scale=657486.60, size=100),
+        'youtube': np.random.normal(loc=11385539.02, scale=6539686.095, size=100),
+        'netflix': np.random.normal(loc=11347999.45, scale=6496748.86, size=100),
+        'gaming': np.random.normal(loc= 215536254.41, scale=125160265.12, size=100),
+        'total_data': np.random.normal(loc=248334438.39, scale= 128465540.17, size=100),
+        'other_data': np.random.normal(loc=216507959.65, scale=122720803.74, size=100),})
     return df
 def analyze_data(df):
     # 1. Describe all relevant variables and associated data types
